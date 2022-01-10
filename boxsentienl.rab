@@ -1,0 +1,67 @@
+= Box Meets SIEM (Sentienl) 
+
+# : subtitle
+#    サブタイトル
+: author
+   Daichi Ishida
+# : institution
+#    所属
+ : content-source
+    BJCC API上級編
+# : date
+#    2022-01-11
+# : allotted-time
+#    5m
+# : start-time
+#    2022-01-11T02:01:55+09:00
+# : end-time
+#    2022-01-11T02:06:55+09:00
+ : theme
+     rabbit
+
+= 今日のAgenda
+
+
+* Box Event logについて
+* Boxでログを管理する苦労について
+* SIEMの紹介
+* Sentielでできること
+
+= 自己紹介
+
+* イシダダイチ
+* 元Boxの中の人です。 (12月までMSFTにもいました)
+* サポートからプリセールス、Boxコンサル、Box API布教活動まで広くカバー
+* いまは[Pendo.io](https://pendo.io)という会社います。
+
+= Pendo.ioの簡単紹介
+
+Pendoはソフトウェアがどのようにユーザーにどのように使われているか情報を収集し、製品体験の向上を図ることができます。
+また、ユーザーに合わせて適切なガイドを表示することができます。
+
+= Pendoスクショ
+funnelとguidesのでもはる
+
+= みなさんBox Eventログとっていますか？
+
+* BoxログはBox上で行われたアクティビティが記録されています
+  * ユーザーがどのようにBoxを使っているかを記録しています
+  * Loginイベントやファイルアクセス、共有などなど
+
+= Box Event Logの取得方法
+
+* Box管理画面
+  * GUI上でログを取得する
+  * CSVファイルをダウンロードする
+  * 時間かかります。(一瞬ではない)
+
+* API
+  * Box Event APIを使用する
+  * JSON形式で取得
+
+= Boxログを日常的にためておかないと
+
+* セキュリティインシデント発生時に対応できない
+* 何が流出したのか、どこから、だれが？
+* 事故？事件？
+

@@ -1,0 +1,23 @@
+---
+id: box-sentienl
+base_name: boxsentienl
+tags:
+- bjcc
+presentation_date:
+presentation_start_time:
+presentation_end_time:
+version: 1.0.0
+licenses: []
+slideshare_id:
+speaker_deck_id:
+vimeo_id:
+youtube_id:
+width: 800
+height: 600
+author:
+  markup_language: :rd
+  name: Daichi Ishida
+  email: daichi.ishida@pendo.io
+  rubygems_user:
+  slideshare_user:
+  speaker_deck_user:
